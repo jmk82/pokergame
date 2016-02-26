@@ -1,0 +1,120 @@
+<!doctype html>
+
+<html>
+<head>
+
+  <title>A Poker Game</title>
+
+  <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <div id="main">
+
+    <button type="button" id="btn">Deal</button>
+
+    <div class="newCardPile"></div>
+
+    <div id="pile1" class="pile"></div>
+    <div id="pile2" class="pile"></div>
+    <div id="pile3" class="pile"></div>
+    <div id="pile4" class="pile"></div>
+    <div id="pile5" class="pile"></div>
+
+  </div>
+
+  <div class="scores">
+    <table>
+      <tr>
+        <th>Hand</th>
+        <th>Points</th>
+      </tr>
+      <tr>
+        <td>Straight Flush</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>Quads</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Full House</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>Flush</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Straight</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Three of a Kind</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Two Pair</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Pair</td>
+        <td>1</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="scores">
+
+    <h3>Local Highscores <a href="#" id="resetHighscores">&nbsp; &nbsp; &nbsp; Reset</a></h3>
+
+    <table id="highScoreTable">
+      
+    </table>
+
+    <p></p>
+
+  </div> 
+
+  <div class="latestScore">
+
+    <p id="latestScore"></p>
+
+  </div>
+
+  <div id="userData">
+    
+    <form id="userForm">
+      <div>
+        <label for="userNameField">Your name:</label>
+        <input type="text" id="userNameField" maxlength="20"/>
+      </div>
+      <div class="userNameButton">
+        <button type="button" id="userNameButton">OK</button>
+      </div>
+    </form>
+
+    <p id="userLogged"></p>
+
+  </div>
+
+  <div id="animationSpeedSetting">
+
+    <h4>Animation speed:</h4>
+
+    <input type="radio" name="animSpeed" value="600">Slow</input>
+    <input type="radio" name="animSpeed" value="400" checked>Normal</input>
+    <input type="radio" name="animSpeed" value="200">Fast</input>
+    <input type="radio" name="animSpeed" value="0">Off</input>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <script src="js/pokerhandevaluator.js"></script>
+  <script src="js/pokergame.js"></script>
+</body>
+</html>

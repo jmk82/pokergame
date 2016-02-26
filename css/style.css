@@ -1,0 +1,108 @@
+body {
+  font-family: 'Hind', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+button {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: lightblue;
+  font-size: 0.8em;
+}
+
+#main {
+  display: inline-block;
+  width: 640px;
+  height: 300px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#userdata {
+  display: inline-block;
+}
+
+.card {
+  position: absolute;
+  height: 96px;
+  width: 72px;
+  z-index: 1;
+}
+
+.newCardPile {
+  position: absolute;
+  height: 96px;
+  width: 72px;
+  left: 30px;
+  top: 80px;
+}
+
+.pile {
+  position: absolute;
+  height: 96px;
+  width: 72px;
+  top: 30px;
+  z-index: 1;
+}
+
+#pile1 {
+  left: 130px;
+}
+
+#pile2 {
+  left: 230px;
+}
+
+#pile3 {
+  left: 330px;
+}
+
+#pile4 {
+  left: 430px;
+}
+
+#pile5 {
+  left: 530px;
+}
+
+.scores {
+  width: 300px;
+  height: 300px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.latestScore {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 2.0em;
+}
+
+table {
+  padding: 15px;
+  text-align: left;
+}
+
+table td {
+  padding-left: 20px;
+}
+
+table th {
+  padding-left: 20px;
+  font-size: 1.2em; 
+}
+
+h3 {
+  padding-left: 35px;
+}
