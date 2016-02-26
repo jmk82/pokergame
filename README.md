@@ -2,7 +2,7 @@
 
 can be played at: http://www.uwasa.fi/~k78956/pokergame/
 
-This is a simple one player poker game which was developed while practising JavaScript/jQuery/jQueryUI/LocalStorage.
+This is a simple one player poker game which was developed while practising JavaScript/jQuery/jQueryUI/LocalStorage. The appearance of the game isn't too polished but the functionality should work :)
 
 Game instructions:
 
