@@ -1,6 +1,6 @@
 "# pokergame" 
 
-can be played at: http://www.uwasa.fi/~k78956/pokergame/
+can be played at: http://jmk82.github.io/pokergame/
 
 This is a simple one player poker game which was developed while practising JavaScript/jQuery/jQueryUI/LocalStorage. The appearance of the game isn't too polished but the functionality should work :)
 
